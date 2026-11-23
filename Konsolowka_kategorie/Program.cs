@@ -64,7 +64,8 @@ class Program
         }
         public void nieparzyste()         {
             int licznik = 0;
-            for(int i = 0; i < rozmiar; i++)
+            Console.WriteLine("Liczby nieparzyste:");
+            for (int i = 0; i < rozmiar; i++)
             {
                 if(tablica[i] % 2 != 0)
                 {
