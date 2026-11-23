@@ -36,6 +36,15 @@ class Program
                 Console.WriteLine(index +":"+tablica[i]);
             }
         }
+        /*
+        **********************************************
+        nazwa metody: Szukaj
+        opis metody: Wyszukuje w tablicy pierwsze wystąpienie podanej liczby i wyświetla jego pozycję.
+        parametry: szukana – liczba, której metoda szuka w tablicy
+        zwracany typ i opis: int – indeks pierwszego znalezionego elementu albo -1, jeśli liczby nie znaleziono
+        autor: Jakub Kryszewski
+        ***********************************************
+        */
         public int Szukaj(int szukana)
         {
             int index;
